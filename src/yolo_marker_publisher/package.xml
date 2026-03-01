@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>yolo_marker_publisher</name>
+  <version>0.0.0</version>
+  <description>YOLO 기반 객체 탐지 결과를 RViz MarkerArray로 퍼블리시하는 ROS2 패키지</description>
+  <maintainer email="hansangu093@gmail.com">hpmcsg1wl7</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 필수 의존성 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- 테스트 의존성 -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
