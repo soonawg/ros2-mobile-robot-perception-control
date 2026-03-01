@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="colored_cube">
+    <static>false</static>
+
+    <link name="link">
+      <inertial><mass>0.5</mass></inertial>
+
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 0.2 0.2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 0.2 0.2</size></box>
+        </geometry>
+
+        <!-- 초록색 (R G B A) -->
+        <material>
+          <ambient>0 1 0 1</ambient>
+          <diffuse>0 1 0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+
+    <plugin name="linear_move" filename="libCircularMovePlugin.so">
+      <min_x>-2</min_x>
+      <max_x>2</max_x>
+      <velocity>0.4</velocity>
+    </plugin> 
+
+  </model>
+</sdf>
