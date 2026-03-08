@@ -4,7 +4,7 @@
   <name>finger_fsm</name>
   <version>0.0.1</version>
   <description>Finite State Machine controller for finger robot (TCP/ROS2 integration)</description>
-  <maintainer email="hansangu093@gmail.com">hpmcsg1wl7</maintainer>
+  <maintainer email="hansangu093@gmail.com">soonawg</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
