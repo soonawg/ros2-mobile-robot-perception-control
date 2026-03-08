@@ -19,7 +19,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='hpmcsg1wl7',
+    maintainer='soonawg',
     maintainer_email='hansangu093@gmail.com',
     description='YOLOv8 real-time object detection with Gazebo simulator',
     license='MIT',
