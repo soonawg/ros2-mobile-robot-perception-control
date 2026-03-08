@@ -4,7 +4,7 @@
   <name>pid_control</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="hansangu093@gmail.com">hpmcsg1wl7</maintainer>
+  <maintainer email="hansangu093@gmail.com">soonawg</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
