@@ -71,7 +71,7 @@ def main(args=None):
         node = SttControlNode()
         # 예시: audio/sample.wav 파일을 처리
         # 이 파일을 직접 생성하거나 다른 경로로 수정해야 합니다.
-        audio_path = "/home/hpmcsg1wl7/exp_ws/stt_control/audio/converted_1.wav"
+        audio_path = "audio/converted_1.wav"
         node.process_audio_and_publish(audio_path)
         # 한 번 실행 후 종료되도록 spin을 주석 처리. 반복 실행을 원하면 주석 해제.
         # rclpy.spin(node)
