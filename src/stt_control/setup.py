@@ -21,9 +21,9 @@ setup(
         'geometry_msgs',
     ],
     zip_safe=True,
-    maintainer='hpmcsg1wl7',
+    maintainer='soonawg',
     maintainer_email='hansangu093@gmail.com',
-    description='음성(STT) + LLM 기반 자연어 명령으로 Turtlebot3를 제어하는 ROS2 패키지',
+    description='음성(STT) 자연어 명령으로 Turtlebot3를 제어하는 ROS2 패키지',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
