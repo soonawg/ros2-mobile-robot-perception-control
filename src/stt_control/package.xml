@@ -3,8 +3,8 @@
 <package format="3">
   <name>stt_control</name>
   <version>0.1.0</version>
-  <description>음성(STT) + LLM 기반 자연어 명령으로 Turtlebot3를 제어하는 ROS2 패키지</description>
-  <maintainer email="hansangu093@gmail.com">hpmcsg1wl7</maintainer>
+  <description>음성(STT) 기반 자연어 명령으로 Turtlebot3를 제어하는 ROS2 패키지</description>
+  <maintainer email="hansangu093@gmail.com">soonawg</maintainer>
   <license>Apache License 2.0</license>
 
   <exec_depend>rclpy</exec_depend>
