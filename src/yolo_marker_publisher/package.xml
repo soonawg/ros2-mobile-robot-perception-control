@@ -4,7 +4,7 @@
   <name>yolo_marker_publisher</name>
   <version>0.0.0</version>
   <description>YOLO 기반 객체 탐지 결과를 RViz MarkerArray로 퍼블리시하는 ROS2 패키지</description>
-  <maintainer email="hansangu093@gmail.com">hpmcsg1wl7</maintainer>
+  <maintainer email="hansangu093@gmail.com">soonawg</maintainer>
   <license>Apache-2.0</license>
 
   <!-- 필수 의존성 -->
