@@ -23,7 +23,7 @@ setup(
         'opencv-python'
     ],
     zip_safe=True,
-    maintainer='hpmcsg1wl7',
+    maintainer='soonawg',
     maintainer_email='hansangu093@gmail.com',
     description='YOLO 기반 물체 인식 및 추적, Turtlebot3 제어 ROS2 패키지',
     license='Apache-2.0',
